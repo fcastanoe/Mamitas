@@ -75,6 +75,8 @@ A continuación, se muestran algunas métricas de rendimiento (ejemplo) que se h
 
 Los cuadernos incluyen visualizaciones de los resultados de entrenamiento y ejemplos de inferencia. Los modelos entrenados se guardan en la carpeta `./models/` y los resultados de evaluación se almacenan en `./results/`.
 
+## Base de datos
+[Datos roboflow](https://universe.roboflow.com/mamitas/thermal-feet/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si encuentras errores o tienes sugerencias para mejorar estos cuadernos, por favor abre un issue o envía una pull request.
