@@ -66,12 +66,20 @@ Para YOLOv11, la estructura es ligeramente diferente y se configura mediante el 
 
 ## Resultados Esperados
 
-A continuación, se muestran algunas métricas de rendimiento (ejemplo) que se han obtenido en el proyecto para la segmentación de dermatomas podales:
+A continuación, se muestran algunas métricas de rendimiento para segmentación y para detección en el modelo YOLO que se han obtenido en el proyecto para la segmentación de dermatomas podales:
 
-| Modelo              | Variante | Dice Coefficient | Jaccard Index | Sensitivity | Specificity | Precision (P) | Recall (R) | mAP50 | mAP50-95 |
-|---------------------|----------|------------------|---------------|-------------|-------------|---------------|------------|-------|----------|
-| **ResUNet**        | default   | 0.97410          | 0.95062       | 0.97275     | 0.97275     | -             | -          | -     | -        |
-| **YOLOv11 (Seg)**  | segmentation | -             | -             | -           | -           | 0.983         | 1          | 0.99  | 0.99     |
+#### MÉTRICAS DE SEGMENTACIÓN
+
+| Modelo       | Variante     | Dice Coefficient | Jaccard Index | Sensitivity | Specificity | 
+|--------------|--------------|------------------|---------------|-------------|-------------|
+| **ResUNet**  | default      | 0.95854          | 0.92275       | 0.95730     | 0.95730     | 
+| **YOLOv11**  | segmentation | 0.98236          | 0.96535       | 0.99157     | 0.99216     | 
+
+#### MÉTRICAS DE DETECCIÓN
+
+| Modelo       | Variante     | Precision (P) | Recall (R) | mAP50   | mAP50-95 |
+|--------------|--------------|---------------|------------|---------|----------|
+| **YOLOv11**  | segmentation |  1            | 1          |  0.995  |  0.995   |
 
 Los cuadernos incluyen visualizaciones de los resultados de entrenamiento y ejemplos de inferencia. Los modelos entrenados se guardan en la carpeta `./models/` y los resultados de evaluación se almacenan en `./results/`.
 
