@@ -83,6 +83,22 @@ A continuación, se muestran algunas métricas de rendimiento para segmentación
 
 Los cuadernos incluyen visualizaciones de los resultados de entrenamiento y ejemplos de inferencia. Los modelos entrenados se guardan en la carpeta `./models/` y los resultados de evaluación se almacenan en `./results/`.
 
+## Imágenes Ilustrativas
+
+A continuación se presentan ejemplos visuales del proceso completo:
+
+- Imagen de Entrada:
+
+<img src="https://github.com/user-attachments/assets/65c4cb95-0a0c-4d8c-9966-a851138ed690" alt="t20_caso22" width="400"/>
+
+- Detección:
+
+<img src="https://github.com/user-attachments/assets/991b601a-94e4-476d-9894-1046e7965594" alt="detection_feet" width="400" height="300"/>
+
+- Segmentación:
+
+<img src="https://github.com/user-attachments/assets/75911525-da8f-4b11-8e3c-5251f2429d06" alt="segmentation_feet" width="400" height="300"/>
+
 ## Base de datos
 [Datos roboflow](https://universe.roboflow.com/mamitas/thermal-feet/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 ## Contribuciones
