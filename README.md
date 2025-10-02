@@ -7,7 +7,6 @@ Este repositorio contiene un modelo de segmentación para dermatomas podales bas
 
 ```
 ├── App/ # Código fuente de la aplicación móvil
-├── Base_de_Datos/ # Conjunto de datos térmicos (30 casos) y scripts de preprocesamiento
 ├── Models/ # Enlaces a modelos entrenados en Kaggle (>25 MB)
 ├── notebooks/ # Jupyter notebooks de entrenamiento, inferencia y análisis
 └── README.md # Documentación principal (este archivo)
